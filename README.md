@@ -27,7 +27,7 @@ I built the app the care team sees after Ava, the voice agent, makes a call.
 - **Quote and transcript view:** the source behind every flag, so nurses can check what the patient said.
 - **Call outcomes:** patients reached, calls completed, follow-ups resolved, needing nurse review, and unanswered attempts.
 - **Patient pages:** recovery day, 30-day call plan, and care plan with the quotes behind each flag.
-- **Agent page:** Ava's recommendations and hand-off rules.
+- **Agent page:** Ava's recent actions, upcoming calls, reasons for schedule changes, and call outcomes. This is where the learning loop is meant to live (see Next).
 - **Layouts:** desktop, phone, and widget previews, plus presenter controls for the live demo.
 
 ## Team (Team Sequel)
@@ -49,6 +49,10 @@ Oracle Cloud Infrastructure (Compute, Speech, Generative AI), Cohere Command A, 
 - **Care-team app and data layer:** the app above, backed by a SQLite store and API on one OCI VM.
 
 **Not yet:** real phone calls through Twilio (built, not exercised), Autonomous Database, FHIR intake and computed LACE scores (patients and scores are seeded from a file), and a rules-based scheduler that sets call timing from risk (the demo runs a fixed plan).
+
+## Next: a learning loop
+
+Use call outcomes (which concerns nurses confirmed, which flags they dismissed, which calls went unanswered) to suggest how to improve Ava's questions and hand-off rules, with a nurse reviewing every change. Not built yet: today the Agent page shows activity and outcomes only.
 
 ## Responsible AI
 
