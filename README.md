@@ -4,7 +4,7 @@
 
 > Showcase repository for our HackTN26 entry (Oracle × Hackathons International, Health Access, Equity & Experience). The source code is in the team's private repository; this page documents the project and my part in it. The demo uses synthetic patients only.
 
-[Live demo](https://147-224-146-119.sslip.io/dashboard/provider/) (hackathon VM, may be offline) · [Slides](https://lnkd.in/edHzPF7b)
+Live demos (hackathon VM, may be offline): [Care-team workspace](https://147-224-146-119.sslip.io/dashboard/provider/) (my build: overview, review queue, patient pages, desktop/phone/widget views) · [Compact care-team view](https://147-224-146-119.sslip.io/dashboard/) · [Slides](https://lnkd.in/edHzPF7b)
 
 ## Project description
 
